@@ -6,6 +6,30 @@ Daggerfall Unity is an open source recreation of Daggerfall in the Unity engine 
 
 Experience the adventure and intrigue of Daggerfall with all of its original charm along with hundreds of fixes, quality of life enhancements, and extensive mod support.
 
+## Why Unity 6?
+
+Unity 6 provides the following benefits:
+* Better rendering performance
+* Volumetric lighting, fog, and clouds
+* Raytracing
+
+### What's needed?
+
+* Dfmod has to be possibly updated for new dependencies.
+* Resources pack with new assets needs to be updated to support HDRP shaders.
+* Possibility of system requirements change.
+
+## Roadmap
+
+* Upgrade from 2019 LTS to Unity 6
+* Convert from the Built-In Render Pipeline to High Definition Render Pipeline (HDRP).
+
+## References
+
+* [r/Unity3D - The best way to upgrade your Unity project to a newer version of Unity.](https://old.reddit.com/r/Unity3D/comments/m5fzpk/the_best_way_to_upgrade_your_unity_project_to_a/)
+* [Unity - Manual:Upgrade Unity](https://docs.unity3d.com/6000.0/Documentation/Manual/UpgradeGuides.html)
+* [Convert a project from the Built-in Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/convert-project-from-built-in-render-pipeline.html)
+
 ## Classic Daggerfall Plus
 
 + Cross-platform without emulation (Windows/Linux/Mac)

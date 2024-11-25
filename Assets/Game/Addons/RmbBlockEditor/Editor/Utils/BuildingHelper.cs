@@ -1,4 +1,4 @@
-﻿// Project:         Daggerfall Tools For Unity
+// Project:         Daggerfall Tools For Unity
 // Copyright:       Copyright (C) 2009-2022 Daggerfall Workshop
 // Web Site:        http://www.dfworkshop.net
 // License:         MIT License (http://www.opensource.org/licenses/mit-license.php)
@@ -115,8 +115,8 @@ namespace DaggerfallWorkshop.Game.Addons.RmbBlockEditor
         public static VisualElement GetPreview(BuildingReplacementData buildingData)
         {
             var tabs = new Tabs();
-            var tab1 = new Tab { value = 0, label = "Exterior" };
-            var tab2 = new Tab { value = 1, label = "Interior" };
+            var tab1 = new Elements.Tab { value = 0, label = "Exterior" };
+            var tab2 = new Elements.Tab { value = 1, label = "Interior" };
 
             var exteriorPreview = GetExteriorPreview(buildingData);
             var interiorPreview = GetInteriorPreview(buildingData);
